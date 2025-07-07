@@ -4,4 +4,39 @@
   margin: 0;
 }
 
-/* Start coding here */
+:root {
+  /* color */
+  --branding-color: #ff7f50;
+  --secondary-color: cornsilk;
+  --highlight-color: #d2691e;
+  --muted-color: #a9a9a9;
+  /* margin */
+  --m-1: 1px;
+  --m-2: 5px;
+  --m-3: 10px;
+  --m-4: 15px;
+  --m-5: 20px;
+  /* padding */
+  --p-1: 1px;
+  --p-2: 5px;
+  --p-3: 10px;
+  --p-4: 15px;
+  --p-5: 20px;
+  /* size */
+  --s:12px;
+  --m: 16px;
+  --l: 20px;
+  --xl: 30px;
+  --xl2: 50px;
+  --xl3: 100px;
+}
+
+.introduction {
+  background-color: var(--secondary-color);
+  padding: var(--p-5);
+}
+
+.introduction h1 {
+  color: var(--branding-color);
+  font-size: var(--xl3);
+}
